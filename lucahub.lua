@@ -190,140 +190,160 @@ G2L["1e"] = Instance.new("UICorner", G2L["1d"]);
 G2L["1f"] = Instance.new("LocalScript", G2L["1d"]);
 
 
+-- StarterGui.ScreenGui.Frame.Basic.Infinite Jump
+G2L["20"] = Instance.new("TextButton", G2L["13"]);
+G2L["20"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
+G2L["20"]["TextSize"] = 14;
+G2L["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["20"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["20"]["Visible"] = false;
+G2L["20"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["20"]["Name"] = [[Infinite Jump]];
+G2L["20"]["Text"] = [[Infinite Jump LC: Enabled RC: Disabled]];
+G2L["20"]["Position"] = UDim2.new(0.49223601818084717, 0, 0.47849464416503906, 0);
+
+-- StarterGui.ScreenGui.Frame.Basic.Infinite Jump.UICorner
+G2L["21"] = Instance.new("UICorner", G2L["20"]);
+
+
+-- StarterGui.ScreenGui.Frame.Basic.Infinite Jump.LocalScript
+G2L["22"] = Instance.new("LocalScript", G2L["20"]);
+
+
 -- StarterGui.ScreenGui.Frame.Credit
-G2L["20"] = Instance.new("Folder", G2L["2"]);
-G2L["20"]["Name"] = [[Credit]];
+G2L["23"] = Instance.new("Folder", G2L["2"]);
+G2L["23"]["Name"] = [[Credit]];
 
 -- StarterGui.ScreenGui.Frame.Credit.b
-G2L["21"] = Instance.new("TextLabel", G2L["20"]);
-G2L["21"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["21"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["21"]["TextSize"] = 20;
-G2L["21"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["21"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["21"]["Text"] = [[Creator: UN53063667]];
-G2L["21"]["Name"] = [[b]];
-G2L["21"]["Visible"] = false;
-G2L["21"]["BackgroundTransparency"] = 1;
-G2L["21"]["Position"] = UDim2.new(0.2888198494911194, 0, 0.20967742800712585, 0);
-
--- StarterGui.ScreenGui.Frame.Credit.c
-G2L["22"] = Instance.new("TextLabel", G2L["20"]);
-G2L["22"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["22"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["22"]["TextSize"] = 20;
-G2L["22"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["22"]["Size"] = UDim2.new(0, 260, 0, 50);
-G2L["22"]["Text"] = [[Discord: Luca-rickrolled-himself#1228]];
-G2L["22"]["Name"] = [[c]];
-G2L["22"]["Visible"] = false;
-G2L["22"]["BackgroundTransparency"] = 1;
-G2L["22"]["Position"] = UDim2.new(0.346273273229599, 0, 0.34408602118492126, 0);
-
--- StarterGui.ScreenGui.Frame.Credit.d
-G2L["23"] = Instance.new("TextLabel", G2L["20"]);
-G2L["23"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["23"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["23"]["TextSize"] = 20;
-G2L["23"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["23"]["Size"] = UDim2.new(0, 260, 0, 50);
-G2L["23"]["Text"] = [[Github: https://github.com/lucabarbalata]];
-G2L["23"]["Name"] = [[d]];
-G2L["23"]["Visible"] = false;
-G2L["23"]["BackgroundTransparency"] = 1;
-G2L["23"]["Position"] = UDim2.new(0.3804347515106201, 0, 0.47849464416503906, 0);
-
--- StarterGui.ScreenGui.Frame.Credit.a
-G2L["24"] = Instance.new("TextLabel", G2L["20"]);
+G2L["24"] = Instance.new("TextLabel", G2L["23"]);
 G2L["24"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["24"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["24"]["TextSize"] = 20;
 G2L["24"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["24"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["24"]["Text"] = [[Luca Hub]];
-G2L["24"]["Name"] = [[a]];
+G2L["24"]["Text"] = [[Creator: UN53063667]];
+G2L["24"]["Name"] = [[b]];
 G2L["24"]["Visible"] = false;
 G2L["24"]["BackgroundTransparency"] = 1;
-G2L["24"]["Position"] = UDim2.new(0.4736024737358093, 0, 0.037634409964084625, 0);
+G2L["24"]["Position"] = UDim2.new(0.2888198494911194, 0, 0.20967742800712585, 0);
+
+-- StarterGui.ScreenGui.Frame.Credit.c
+G2L["25"] = Instance.new("TextLabel", G2L["23"]);
+G2L["25"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["25"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["25"]["TextSize"] = 20;
+G2L["25"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["25"]["Size"] = UDim2.new(0, 260, 0, 50);
+G2L["25"]["Text"] = [[Discord: Luca-rickrolled-himself#1228]];
+G2L["25"]["Name"] = [[c]];
+G2L["25"]["Visible"] = false;
+G2L["25"]["BackgroundTransparency"] = 1;
+G2L["25"]["Position"] = UDim2.new(0.346273273229599, 0, 0.34408602118492126, 0);
+
+-- StarterGui.ScreenGui.Frame.Credit.d
+G2L["26"] = Instance.new("TextLabel", G2L["23"]);
+G2L["26"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["26"]["TextSize"] = 20;
+G2L["26"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["26"]["Size"] = UDim2.new(0, 260, 0, 50);
+G2L["26"]["Text"] = [[Github: https://github.com/lucabarbalata]];
+G2L["26"]["Name"] = [[d]];
+G2L["26"]["Visible"] = false;
+G2L["26"]["BackgroundTransparency"] = 1;
+G2L["26"]["Position"] = UDim2.new(0.3804347515106201, 0, 0.47849464416503906, 0);
+
+-- StarterGui.ScreenGui.Frame.Credit.a
+G2L["27"] = Instance.new("TextLabel", G2L["23"]);
+G2L["27"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["27"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["27"]["TextSize"] = 20;
+G2L["27"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["27"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["27"]["Text"] = [[Luca Hub]];
+G2L["27"]["Name"] = [[a]];
+G2L["27"]["Visible"] = false;
+G2L["27"]["BackgroundTransparency"] = 1;
+G2L["27"]["Position"] = UDim2.new(0.4736024737358093, 0, 0.037634409964084625, 0);
 
 -- StarterGui.ScreenGui.Frame.Games
-G2L["25"] = Instance.new("Folder", G2L["2"]);
-G2L["25"]["Name"] = [[Games]];
+G2L["28"] = Instance.new("Folder", G2L["2"]);
+G2L["28"]["Name"] = [[Games]];
 
 -- StarterGui.ScreenGui.Frame.Games.BloxFruits
-G2L["26"] = Instance.new("TextButton", G2L["25"]);
-G2L["26"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
-G2L["26"]["TextSize"] = 14;
-G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["26"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["26"]["Visible"] = false;
-G2L["26"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["26"]["Name"] = [[BloxFruits]];
-G2L["26"]["Text"] = [[BloxFruits]];
-G2L["26"]["Position"] = UDim2.new(0.31677019596099854, 0, 0.07526883482933044, 0);
-
--- StarterGui.ScreenGui.Frame.Games.BloxFruits.UICorner
-G2L["27"] = Instance.new("UICorner", G2L["26"]);
-
-
--- StarterGui.ScreenGui.Frame.Games.BloxFruits.LocalScript
-G2L["28"] = Instance.new("LocalScript", G2L["26"]);
-
-
--- StarterGui.ScreenGui.Frame.Games.DOORS
-G2L["29"] = Instance.new("TextButton", G2L["25"]);
+G2L["29"] = Instance.new("TextButton", G2L["28"]);
 G2L["29"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
 G2L["29"]["TextSize"] = 14;
 G2L["29"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["29"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["29"]["Visible"] = false;
 G2L["29"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["29"]["Name"] = [[DOORS]];
-G2L["29"]["Text"] = [[DOORS]];
-G2L["29"]["Position"] = UDim2.new(0.6537266969680786, 0, 0.07526883482933044, 0);
+G2L["29"]["Name"] = [[BloxFruits]];
+G2L["29"]["Text"] = [[BloxFruits]];
+G2L["29"]["Position"] = UDim2.new(0.31677019596099854, 0, 0.07526883482933044, 0);
 
--- StarterGui.ScreenGui.Frame.Games.DOORS.UICorner
+-- StarterGui.ScreenGui.Frame.Games.BloxFruits.UICorner
 G2L["2a"] = Instance.new("UICorner", G2L["29"]);
 
 
--- StarterGui.ScreenGui.Frame.Games.DOORS.LocalScript
+-- StarterGui.ScreenGui.Frame.Games.BloxFruits.LocalScript
 G2L["2b"] = Instance.new("LocalScript", G2L["29"]);
 
 
+-- StarterGui.ScreenGui.Frame.Games.DOORS
+G2L["2c"] = Instance.new("TextButton", G2L["28"]);
+G2L["2c"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
+G2L["2c"]["TextSize"] = 14;
+G2L["2c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["2c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2c"]["Visible"] = false;
+G2L["2c"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["2c"]["Name"] = [[DOORS]];
+G2L["2c"]["Text"] = [[DOORS]];
+G2L["2c"]["Position"] = UDim2.new(0.6537266969680786, 0, 0.07526883482933044, 0);
+
+-- StarterGui.ScreenGui.Frame.Games.DOORS.UICorner
+G2L["2d"] = Instance.new("UICorner", G2L["2c"]);
+
+
+-- StarterGui.ScreenGui.Frame.Games.DOORS.LocalScript
+G2L["2e"] = Instance.new("LocalScript", G2L["2c"]);
+
+
 -- StarterGui.ScreenGui.Frame.Music
-G2L["2c"] = Instance.new("Folder", G2L["2"]);
-G2L["2c"]["Name"] = [[Music]];
+G2L["2f"] = Instance.new("Folder", G2L["2"]);
+G2L["2f"]["Name"] = [[Music]];
 
 -- StarterGui.ScreenGui.Frame.Music.Life in an Elevator
-G2L["2d"] = Instance.new("Sound", G2L["2c"]);
-G2L["2d"]["Name"] = [[Life in an Elevator]];
-G2L["2d"]["SoundId"] = [[rbxassetid://1841647093]];
+G2L["30"] = Instance.new("Sound", G2L["2f"]);
+G2L["30"]["Name"] = [[Life in an Elevator]];
+G2L["30"]["SoundId"] = [[rbxassetid://1841647093]];
 
 -- StarterGui.ScreenGui.Frame.Music.Relaxed Scene
-G2L["2e"] = Instance.new("Sound", G2L["2c"]);
-G2L["2e"]["Name"] = [[Relaxed Scene]];
-G2L["2e"]["SoundId"] = [[rbxassetid://1848354536]];
+G2L["31"] = Instance.new("Sound", G2L["2f"]);
+G2L["31"]["Name"] = [[Relaxed Scene]];
+G2L["31"]["SoundId"] = [[rbxassetid://1848354536]];
 
 -- StarterGui.ScreenGui.Frame.Music.Lo-fi Chill A
-G2L["2f"] = Instance.new("Sound", G2L["2c"]);
-G2L["2f"]["Name"] = [[Lo-fi Chill A]];
-G2L["2f"]["SoundId"] = [[rbxassetid://9043887091]];
+G2L["32"] = Instance.new("Sound", G2L["2f"]);
+G2L["32"]["Name"] = [[Lo-fi Chill A]];
+G2L["32"]["SoundId"] = [[rbxassetid://9043887091]];
 
 -- StarterGui.ScreenGui.DraggableObject
-G2L["30"] = Instance.new("ModuleScript", G2L["1"]);
-G2L["30"]["Name"] = [[DraggableObject]];
+G2L["33"] = Instance.new("ModuleScript", G2L["1"]);
+G2L["33"]["Name"] = [[DraggableObject]];
 
 -- StarterGui.ScreenGui.LocalScript
-G2L["31"] = Instance.new("LocalScript", G2L["1"]);
+G2L["34"] = Instance.new("LocalScript", G2L["1"]);
 
 
 -- StarterGui.ScreenGui.LocalScript
-G2L["32"] = Instance.new("LocalScript", G2L["1"]);
+G2L["35"] = Instance.new("LocalScript", G2L["1"]);
 
 
 -- StarterGui.ScreenGui.CurrentTrack
-G2L["33"] = Instance.new("StringValue", G2L["1"]);
-G2L["33"]["Name"] = [[CurrentTrack]];
+G2L["36"] = Instance.new("StringValue", G2L["1"]);
+G2L["36"]["Name"] = [[CurrentTrack]];
 
 -- Require G2L wrapper
 local G2L_REQUIRE = require;
@@ -340,9 +360,9 @@ local function require(Module:ModuleScript)
     return G2L_REQUIRE(Module);
 end
 
-G2L_MODULES[G2L["30"]] = {
+G2L_MODULES[G2L["33"]] = {
 Closure = function()
-    local script = G2L["30"];
+    local script = G2L["33"];
 --[[
 	@Author: Spynaz
 	@Description: Enables dragging on GuiObjects. Supports both mouse and touch.
@@ -484,6 +504,7 @@ local script = G2L["9"];
 	local d = script.Parent.Parent.Parent.Credit.d
 	local bfruits = script.Parent.Parent.Parent.Games.BloxFruits
 	local doors = script.Parent.Parent.Parent.Games.DOORS
+	local infiniti = script.Parent.Parent.Parent.Basic["Infinite Jump"]
 	Button.MouseButton1Click:Connect(function()
 		ctp.Visible = true
 		ESP.Visible = true
@@ -495,6 +516,7 @@ local script = G2L["9"];
 		d.Visible = false
 		bfruits.Visible = false
 		doors.Visible = false
+		infiniti.Visible = true
 	end)
 end;
 task.spawn(C_9);
@@ -512,6 +534,7 @@ local script = G2L["c"];
 	local d = script.Parent.Parent.Parent.Credit.d
 	local bfruits = script.Parent.Parent.Parent.Games.BloxFruits
 	local doors = script.Parent.Parent.Parent.Games.DOORS
+	local infiniti = script.Parent.Parent.Parent.Basic["Infinite Jump"]
 	Button.MouseButton1Click:Connect(function()
 		a.Visible = false
 		b.Visible = false
@@ -523,6 +546,7 @@ local script = G2L["c"];
 		fcam.Visible = false
 		bfruits.Visible = true
 		doors.Visible = true
+		infiniti.Visible = false
 	end)
 end;
 task.spawn(C_c);
@@ -540,6 +564,7 @@ local script = G2L["f"];
 	local d = script.Parent.Parent.Parent.Credit.d
 	local bfruits = script.Parent.Parent.Parent.Games.BloxFruits
 	local doors = script.Parent.Parent.Parent.Games.DOORS
+	local infiniti = script.Parent.Parent.Parent.Basic["Infinite Jump"]
 	Button.MouseButton1Click:Connect(function()
 		a.Visible = true
 		b.Visible = true
@@ -551,6 +576,7 @@ local script = G2L["f"];
 		fcam.Visible = false
 		bfruits.Visible = false
 		doors.Visible = false
+		infiniti.Visible = false
 	end)
 end;
 task.spawn(C_f);
@@ -1648,9 +1674,27 @@ local script = G2L["1f"];
 	end)
 end;
 task.spawn(C_1f);
+-- StarterGui.ScreenGui.Frame.Basic.Infinite Jump.LocalScript
+local function C_22()
+local script = G2L["22"];
+	local Button = script.Parent
+	
+	Button.MouseButton1Click:Connect(function()
+		InfiniteJumpEnabled = true
+	end)
+	Button.MouseButton2Click:Connect(function()
+		InfiniteJumpEnabled = false
+	end)
+	game:GetService("UserInputService").JumpRequest:connect(function()
+		if InfiniteJumpEnabled then
+			game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+		end
+	end)
+end;
+task.spawn(C_22);
 -- StarterGui.ScreenGui.Frame.Games.BloxFruits.LocalScript
-local function C_28()
-local script = G2L["28"];
+local function C_2b()
+local script = G2L["2b"];
 	local Button = script.Parent
 	
 	Button.MouseButton1Click:Connect(function()
@@ -1658,10 +1702,10 @@ local script = G2L["28"];
 	end)
 	
 end;
-task.spawn(C_28);
+task.spawn(C_2b);
 -- StarterGui.ScreenGui.Frame.Games.DOORS.LocalScript
-local function C_2b()
-local script = G2L["2b"];
+local function C_2e()
+local script = G2L["2e"];
 	local Button = script.Parent
 	
 	Button.MouseButton1Click:Connect(function()
@@ -1669,18 +1713,18 @@ local script = G2L["2b"];
 	end)
 	
 end;
-task.spawn(C_2b);
+task.spawn(C_2e);
 -- StarterGui.ScreenGui.LocalScript
-local function C_31()
-local script = G2L["31"];
+local function C_34()
+local script = G2L["34"];
 	local DraggableObject	= require(script.Parent.DraggableObject)
 	local FrameDrag 		= DraggableObject.new(script.Parent.Frame)
 	FrameDrag:Enable()
 end;
-task.spawn(C_31);
+task.spawn(C_34);
 -- StarterGui.ScreenGui.LocalScript
-local function C_32()
-local script = G2L["32"];
+local function C_35()
+local script = G2L["35"];
 	local musicFolder = script.Parent.Frame.Music -- variable for the music folder
 	local availableMusic = musicFolder:GetChildren() -- variable that gets all of the children, or songs, from the music folder
 	local currentTrack = script.Parent.CurrentTrack -- variable for the string value that will hold the name of the current song
@@ -1701,6 +1745,6 @@ local script = G2L["32"];
 	
 	end -- end of the loop
 end;
-task.spawn(C_32);
+task.spawn(C_35);
 
 return G2L["1"], require;
