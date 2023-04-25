@@ -91,177 +91,239 @@ G2L["e"] = Instance.new("UICorner", G2L["d"]);
 G2L["f"] = Instance.new("LocalScript", G2L["d"]);
 G2L["f"]["Name"] = [[b]];
 
+-- StarterGui.ScreenGui.Frame.Frame.ImageButton
+G2L["10"] = Instance.new("ImageButton", G2L["4"]);
+G2L["10"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10"]["Image"] = [[rbxassetid://176572847]];
+G2L["10"]["Size"] = UDim2.new(0, 44, 0, 54);
+G2L["10"]["Position"] = UDim2.new(0, 0, 0.8548387289047241, 0);
+
+-- StarterGui.ScreenGui.Frame.Frame.ImageButton.UICorner
+G2L["11"] = Instance.new("UICorner", G2L["10"]);
+
+
+-- StarterGui.ScreenGui.Frame.Frame.ImageButton.LocalScript
+G2L["12"] = Instance.new("LocalScript", G2L["10"]);
+
+
 -- StarterGui.ScreenGui.Frame.Basic
-G2L["10"] = Instance.new("Folder", G2L["2"]);
-G2L["10"]["Name"] = [[Basic]];
+G2L["13"] = Instance.new("Folder", G2L["2"]);
+G2L["13"]["Name"] = [[Basic]];
 
 -- StarterGui.ScreenGui.Frame.Basic.ESP
-G2L["11"] = Instance.new("TextButton", G2L["10"]);
-G2L["11"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
-G2L["11"]["TextSize"] = 14;
-G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["11"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11"]["Visible"] = false;
-G2L["11"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["11"]["Name"] = [[ESP]];
-G2L["11"]["Text"] = [[ESP RC-Open LC-Close]];
-G2L["11"]["Position"] = UDim2.new(0.3447205126285553, 0, 0.32526883482933044, 0);
-
--- StarterGui.ScreenGui.Frame.Basic.ESP.UICorner
-G2L["12"] = Instance.new("UICorner", G2L["11"]);
-
-
--- StarterGui.ScreenGui.Frame.Basic.ESP.LocalScript
-G2L["13"] = Instance.new("LocalScript", G2L["11"]);
-
-
--- StarterGui.ScreenGui.Frame.Basic.Flashlight
-G2L["14"] = Instance.new("TextButton", G2L["10"]);
+G2L["14"] = Instance.new("TextButton", G2L["13"]);
 G2L["14"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
 G2L["14"]["TextSize"] = 14;
 G2L["14"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["14"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["14"]["Visible"] = false;
 G2L["14"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["14"]["Name"] = [[Flashlight]];
-G2L["14"]["Text"] = [[Flashlight]];
-G2L["14"]["Position"] = UDim2.new(0.6770186424255371, 0, 0.11827956885099411, 0);
+G2L["14"]["Name"] = [[ESP]];
+G2L["14"]["Text"] = [[ESP RC-Open LC-Close]];
+G2L["14"]["Position"] = UDim2.new(0.3447205126285553, 0, 0.32526883482933044, 0);
 
--- StarterGui.ScreenGui.Frame.Basic.Flashlight.UICorner
+-- StarterGui.ScreenGui.Frame.Basic.ESP.UICorner
 G2L["15"] = Instance.new("UICorner", G2L["14"]);
 
 
--- StarterGui.ScreenGui.Frame.Basic.Flashlight.LocalScript
+-- StarterGui.ScreenGui.Frame.Basic.ESP.LocalScript
 G2L["16"] = Instance.new("LocalScript", G2L["14"]);
 
 
--- StarterGui.ScreenGui.Frame.Basic.Freecam
-G2L["17"] = Instance.new("TextButton", G2L["10"]);
+-- StarterGui.ScreenGui.Frame.Basic.Flashlight
+G2L["17"] = Instance.new("TextButton", G2L["13"]);
 G2L["17"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
 G2L["17"]["TextSize"] = 14;
 G2L["17"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["17"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["17"]["Visible"] = false;
 G2L["17"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["17"]["Name"] = [[Freecam]];
-G2L["17"]["Text"] = [[Freecam(Toggle with P)]];
-G2L["17"]["Position"] = UDim2.new(0.6770186424255371, 0, 0.32526883482933044, 0);
+G2L["17"]["Name"] = [[Flashlight]];
+G2L["17"]["Text"] = [[Flashlight]];
+G2L["17"]["Position"] = UDim2.new(0.6770186424255371, 0, 0.11827956885099411, 0);
 
--- StarterGui.ScreenGui.Frame.Basic.Freecam.UICorner
+-- StarterGui.ScreenGui.Frame.Basic.Flashlight.UICorner
 G2L["18"] = Instance.new("UICorner", G2L["17"]);
 
 
--- StarterGui.ScreenGui.Frame.Basic.Freecam.LocalScript
+-- StarterGui.ScreenGui.Frame.Basic.Flashlight.LocalScript
 G2L["19"] = Instance.new("LocalScript", G2L["17"]);
 
 
--- StarterGui.ScreenGui.Frame.Basic.Click+Tp
-G2L["1a"] = Instance.new("TextButton", G2L["10"]);
+-- StarterGui.ScreenGui.Frame.Basic.Freecam
+G2L["1a"] = Instance.new("TextButton", G2L["13"]);
 G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
 G2L["1a"]["TextSize"] = 14;
 G2L["1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["1a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1a"]["Visible"] = false;
 G2L["1a"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["1a"]["Name"] = [[Click+Tp]];
-G2L["1a"]["Text"] = [[Click+Tp (Toggle)]];
-G2L["1a"]["Position"] = UDim2.new(0.3447204828262329, 0, 0.11827956885099411, 0);
+G2L["1a"]["Name"] = [[Freecam]];
+G2L["1a"]["Text"] = [[Freecam(Toggle with P)]];
+G2L["1a"]["Position"] = UDim2.new(0.6770186424255371, 0, 0.32526883482933044, 0);
 
--- StarterGui.ScreenGui.Frame.Basic.Click+Tp.UICorner
+-- StarterGui.ScreenGui.Frame.Basic.Freecam.UICorner
 G2L["1b"] = Instance.new("UICorner", G2L["1a"]);
 
 
--- StarterGui.ScreenGui.Frame.Basic.Click+Tp.LocalScript
+-- StarterGui.ScreenGui.Frame.Basic.Freecam.LocalScript
 G2L["1c"] = Instance.new("LocalScript", G2L["1a"]);
 
 
+-- StarterGui.ScreenGui.Frame.Basic.Click+Tp
+G2L["1d"] = Instance.new("TextButton", G2L["13"]);
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
+G2L["1d"]["TextSize"] = 14;
+G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["1d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d"]["Visible"] = false;
+G2L["1d"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["1d"]["Name"] = [[Click+Tp]];
+G2L["1d"]["Text"] = [[Click+Tp (Toggle)]];
+G2L["1d"]["Position"] = UDim2.new(0.3447204828262329, 0, 0.11827956885099411, 0);
+
+-- StarterGui.ScreenGui.Frame.Basic.Click+Tp.UICorner
+G2L["1e"] = Instance.new("UICorner", G2L["1d"]);
+
+
+-- StarterGui.ScreenGui.Frame.Basic.Click+Tp.LocalScript
+G2L["1f"] = Instance.new("LocalScript", G2L["1d"]);
+
+
 -- StarterGui.ScreenGui.Frame.Credit
-G2L["1d"] = Instance.new("Folder", G2L["2"]);
-G2L["1d"]["Name"] = [[Credit]];
+G2L["20"] = Instance.new("Folder", G2L["2"]);
+G2L["20"]["Name"] = [[Credit]];
 
 -- StarterGui.ScreenGui.Frame.Credit.b
-G2L["1e"] = Instance.new("TextLabel", G2L["1d"]);
-G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["1e"]["TextSize"] = 20;
-G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1e"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["1e"]["Text"] = [[Creator: UN53063667]];
-G2L["1e"]["Name"] = [[b]];
-G2L["1e"]["Visible"] = false;
-G2L["1e"]["BackgroundTransparency"] = 1;
-G2L["1e"]["Position"] = UDim2.new(0.2888198494911194, 0, 0.20967742800712585, 0);
-
--- StarterGui.ScreenGui.Frame.Credit.c
-G2L["1f"] = Instance.new("TextLabel", G2L["1d"]);
-G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1f"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["1f"]["TextSize"] = 20;
-G2L["1f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1f"]["Size"] = UDim2.new(0, 260, 0, 50);
-G2L["1f"]["Text"] = [[Discord: Luca-rickrolled-himself#1228]];
-G2L["1f"]["Name"] = [[c]];
-G2L["1f"]["Visible"] = false;
-G2L["1f"]["BackgroundTransparency"] = 1;
-G2L["1f"]["Position"] = UDim2.new(0.346273273229599, 0, 0.34408602118492126, 0);
-
--- StarterGui.ScreenGui.Frame.Credit.d
-G2L["20"] = Instance.new("TextLabel", G2L["1d"]);
-G2L["20"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["20"]["TextSize"] = 20;
-G2L["20"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["20"]["Size"] = UDim2.new(0, 260, 0, 50);
-G2L["20"]["Text"] = [[Github: https://github.com/lucabarbalata]];
-G2L["20"]["Name"] = [[d]];
-G2L["20"]["Visible"] = false;
-G2L["20"]["BackgroundTransparency"] = 1;
-G2L["20"]["Position"] = UDim2.new(0.3804347515106201, 0, 0.47849464416503906, 0);
-
--- StarterGui.ScreenGui.Frame.Credit.a
-G2L["21"] = Instance.new("TextLabel", G2L["1d"]);
+G2L["21"] = Instance.new("TextLabel", G2L["20"]);
 G2L["21"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["21"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["21"]["TextSize"] = 20;
 G2L["21"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["21"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["21"]["Text"] = [[Luca Hub]];
-G2L["21"]["Name"] = [[a]];
+G2L["21"]["Text"] = [[Creator: UN53063667]];
+G2L["21"]["Name"] = [[b]];
 G2L["21"]["Visible"] = false;
 G2L["21"]["BackgroundTransparency"] = 1;
-G2L["21"]["Position"] = UDim2.new(0.4736024737358093, 0, 0.037634409964084625, 0);
+G2L["21"]["Position"] = UDim2.new(0.2888198494911194, 0, 0.20967742800712585, 0);
+
+-- StarterGui.ScreenGui.Frame.Credit.c
+G2L["22"] = Instance.new("TextLabel", G2L["20"]);
+G2L["22"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["22"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["22"]["TextSize"] = 20;
+G2L["22"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["22"]["Size"] = UDim2.new(0, 260, 0, 50);
+G2L["22"]["Text"] = [[Discord: Luca-rickrolled-himself#1228]];
+G2L["22"]["Name"] = [[c]];
+G2L["22"]["Visible"] = false;
+G2L["22"]["BackgroundTransparency"] = 1;
+G2L["22"]["Position"] = UDim2.new(0.346273273229599, 0, 0.34408602118492126, 0);
+
+-- StarterGui.ScreenGui.Frame.Credit.d
+G2L["23"] = Instance.new("TextLabel", G2L["20"]);
+G2L["23"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["23"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["23"]["TextSize"] = 20;
+G2L["23"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["23"]["Size"] = UDim2.new(0, 260, 0, 50);
+G2L["23"]["Text"] = [[Github: https://github.com/lucabarbalata]];
+G2L["23"]["Name"] = [[d]];
+G2L["23"]["Visible"] = false;
+G2L["23"]["BackgroundTransparency"] = 1;
+G2L["23"]["Position"] = UDim2.new(0.3804347515106201, 0, 0.47849464416503906, 0);
+
+-- StarterGui.ScreenGui.Frame.Credit.a
+G2L["24"] = Instance.new("TextLabel", G2L["20"]);
+G2L["24"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["24"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["24"]["TextSize"] = 20;
+G2L["24"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["24"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["24"]["Text"] = [[Luca Hub]];
+G2L["24"]["Name"] = [[a]];
+G2L["24"]["Visible"] = false;
+G2L["24"]["BackgroundTransparency"] = 1;
+G2L["24"]["Position"] = UDim2.new(0.4736024737358093, 0, 0.037634409964084625, 0);
 
 -- StarterGui.ScreenGui.Frame.Games
-G2L["22"] = Instance.new("Folder", G2L["2"]);
-G2L["22"]["Name"] = [[Games]];
+G2L["25"] = Instance.new("Folder", G2L["2"]);
+G2L["25"]["Name"] = [[Games]];
 
 -- StarterGui.ScreenGui.Frame.Games.BloxFruits
-G2L["23"] = Instance.new("TextButton", G2L["22"]);
-G2L["23"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
-G2L["23"]["TextSize"] = 14;
-G2L["23"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["23"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["23"]["Visible"] = false;
-G2L["23"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["23"]["Name"] = [[BloxFruits]];
-G2L["23"]["Text"] = [[BloxFruits]];
-G2L["23"]["Position"] = UDim2.new(0.48291927576065063, 0, 0.4166666865348816, 0);
+G2L["26"] = Instance.new("TextButton", G2L["25"]);
+G2L["26"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
+G2L["26"]["TextSize"] = 14;
+G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["26"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["26"]["Visible"] = false;
+G2L["26"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["26"]["Name"] = [[BloxFruits]];
+G2L["26"]["Text"] = [[BloxFruits]];
+G2L["26"]["Position"] = UDim2.new(0.31677019596099854, 0, 0.07526883482933044, 0);
 
 -- StarterGui.ScreenGui.Frame.Games.BloxFruits.UICorner
-G2L["24"] = Instance.new("UICorner", G2L["23"]);
+G2L["27"] = Instance.new("UICorner", G2L["26"]);
 
 
 -- StarterGui.ScreenGui.Frame.Games.BloxFruits.LocalScript
-G2L["25"] = Instance.new("LocalScript", G2L["23"]);
+G2L["28"] = Instance.new("LocalScript", G2L["26"]);
 
+
+-- StarterGui.ScreenGui.Frame.Games.DOORS
+G2L["29"] = Instance.new("TextButton", G2L["25"]);
+G2L["29"]["BackgroundColor3"] = Color3.fromRGB(18, 18, 18);
+G2L["29"]["TextSize"] = 14;
+G2L["29"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["29"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["29"]["Visible"] = false;
+G2L["29"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["29"]["Name"] = [[DOORS]];
+G2L["29"]["Text"] = [[DOORS]];
+G2L["29"]["Position"] = UDim2.new(0.6537266969680786, 0, 0.07526883482933044, 0);
+
+-- StarterGui.ScreenGui.Frame.Games.DOORS.UICorner
+G2L["2a"] = Instance.new("UICorner", G2L["29"]);
+
+
+-- StarterGui.ScreenGui.Frame.Games.DOORS.LocalScript
+G2L["2b"] = Instance.new("LocalScript", G2L["29"]);
+
+
+-- StarterGui.ScreenGui.Frame.Music
+G2L["2c"] = Instance.new("Folder", G2L["2"]);
+G2L["2c"]["Name"] = [[Music]];
+
+-- StarterGui.ScreenGui.Frame.Music.Life in an Elevator
+G2L["2d"] = Instance.new("Sound", G2L["2c"]);
+G2L["2d"]["Name"] = [[Life in an Elevator]];
+G2L["2d"]["SoundId"] = [[rbxassetid://1841647093]];
+
+-- StarterGui.ScreenGui.Frame.Music.Relaxed Scene
+G2L["2e"] = Instance.new("Sound", G2L["2c"]);
+G2L["2e"]["Name"] = [[Relaxed Scene]];
+G2L["2e"]["SoundId"] = [[rbxassetid://1848354536]];
+
+-- StarterGui.ScreenGui.Frame.Music.Lo-fi Chill A
+G2L["2f"] = Instance.new("Sound", G2L["2c"]);
+G2L["2f"]["Name"] = [[Lo-fi Chill A]];
+G2L["2f"]["SoundId"] = [[rbxassetid://9043887091]];
 
 -- StarterGui.ScreenGui.DraggableObject
-G2L["26"] = Instance.new("ModuleScript", G2L["1"]);
-G2L["26"]["Name"] = [[DraggableObject]];
+G2L["30"] = Instance.new("ModuleScript", G2L["1"]);
+G2L["30"]["Name"] = [[DraggableObject]];
 
 -- StarterGui.ScreenGui.LocalScript
-G2L["27"] = Instance.new("LocalScript", G2L["1"]);
+G2L["31"] = Instance.new("LocalScript", G2L["1"]);
 
+
+-- StarterGui.ScreenGui.LocalScript
+G2L["32"] = Instance.new("LocalScript", G2L["1"]);
+
+
+-- StarterGui.ScreenGui.CurrentTrack
+G2L["33"] = Instance.new("StringValue", G2L["1"]);
+G2L["33"]["Name"] = [[CurrentTrack]];
 
 -- Require G2L wrapper
 local G2L_REQUIRE = require;
@@ -278,9 +340,9 @@ local function require(Module:ModuleScript)
     return G2L_REQUIRE(Module);
 end
 
-G2L_MODULES[G2L["26"]] = {
+G2L_MODULES[G2L["30"]] = {
 Closure = function()
-    local script = G2L["26"];
+    local script = G2L["30"];
 --[[
 	@Author: Spynaz
 	@Description: Enables dragging on GuiObjects. Supports both mouse and touch.
@@ -421,6 +483,7 @@ local script = G2L["9"];
 	local c = script.Parent.Parent.Parent.Credit.c
 	local d = script.Parent.Parent.Parent.Credit.d
 	local bfruits = script.Parent.Parent.Parent.Games.BloxFruits
+	local doors = script.Parent.Parent.Parent.Games.DOORS
 	Button.MouseButton1Click:Connect(function()
 		ctp.Visible = true
 		ESP.Visible = true
@@ -431,6 +494,7 @@ local script = G2L["9"];
 		c.Visible = false
 		d.Visible = false
 		bfruits.Visible = false
+		doors.Visible = false
 	end)
 end;
 task.spawn(C_9);
@@ -447,6 +511,7 @@ local script = G2L["c"];
 	local c = script.Parent.Parent.Parent.Credit.c
 	local d = script.Parent.Parent.Parent.Credit.d
 	local bfruits = script.Parent.Parent.Parent.Games.BloxFruits
+	local doors = script.Parent.Parent.Parent.Games.DOORS
 	Button.MouseButton1Click:Connect(function()
 		a.Visible = false
 		b.Visible = false
@@ -457,6 +522,7 @@ local script = G2L["c"];
 		Flashlight.Visible = false
 		fcam.Visible = false
 		bfruits.Visible = true
+		doors.Visible = true
 	end)
 end;
 task.spawn(C_c);
@@ -473,6 +539,7 @@ local script = G2L["f"];
 	local c = script.Parent.Parent.Parent.Credit.c
 	local d = script.Parent.Parent.Parent.Credit.d
 	local bfruits = script.Parent.Parent.Parent.Games.BloxFruits
+	local doors = script.Parent.Parent.Parent.Games.DOORS
 	Button.MouseButton1Click:Connect(function()
 		a.Visible = true
 		b.Visible = true
@@ -483,12 +550,59 @@ local script = G2L["f"];
 		Flashlight.Visible = false
 		fcam.Visible = false
 		bfruits.Visible = false
+		doors.Visible = false
 	end)
 end;
 task.spawn(C_f);
+-- StarterGui.ScreenGui.Frame.Frame.ImageButton.LocalScript
+local function C_12()
+local script = G2L["12"];
+	local muteButton = script.Parent --  variable for the mute button
+	
+	local musicFolder = script.Parent.Parent.Parent.Music -- variable for the music folder
+	local currentTrack = script.Parent.Parent.Parent.Parent.CurrentTrack -- variable for the string value
+	
+	local muted = false -- bool variable that tells us whether the music is muted or not; default is false
+	
+	muteButton.MouseButton1Click:Connect(function() -- event that fires when a player has clicked the mute button
+	
+		if currentTrack.Value ~= "..." then -- if something is actually playing, then...
+	
+			local nowPlaying = musicFolder[currentTrack.Value] -- getting the song from the music folder that matches the CurrentTrack's value (which would be the song that is currently playing)
+	
+			nowPlaying.Volume = muted and 0.5 or 0 -- takes the current sound object and applies the bool variable along with 2 volume values; the first is when the music is UNMUTED, and the second is when the music is MUTED
+			muteButton.Image = muted and "rbxassetid://176572847" or "rbxassetid://176572748" -- same thing as above except we're changing the image of the button instead of the volume of the song; the first ID is the same one for when the song is UNMUTED, and the second ID is for when the song is MUTED - make sure you put 'rbxassetid://' before the ID so that it's formatted correctly
+	
+			muted = not muted -- flips the bool variable's value
+	
+		end
+	
+	end) -- end of the function
+	
+	currentTrack:GetPropertyChangedSignal("Value"):Connect(function() -- if the current song changes, we run this function
+	
+		if currentTrack.Value ~= "..." then -- if something is actually playing, then...
+	
+			local nowPlaying = musicFolder[currentTrack.Value] -- we get the sound object from the music folder that's currently playing
+	
+			if muted == true then -- if the previous song was muted and the player hasn't touched the mute button, then...
+	
+				nowPlaying.Volume = 0 -- we keep the next song muted
+	
+			elseif muted == false then -- if the previous song was unmuted and the player hasn't touched the mute button, then...
+	
+				nowPlaying.Volume = 0.5 -- we keep the next song unmuted
+	
+			end -- end of the if statement
+	
+		end -- end of the if statement
+	
+	end) -- end of the function
+end;
+task.spawn(C_12);
 -- StarterGui.ScreenGui.Frame.Basic.ESP.LocalScript
-local function C_13()
-local script = G2L["13"];
+local function C_16()
+local script = G2L["16"];
 	local Button = script.Parent
 	
 	Button.MouseButton1Click:Connect(function()
@@ -1318,10 +1432,10 @@ local script = G2L["13"];
 		game.StarterGui:SetCore("SendNotification", {Title="Luca Hub"; Text="ESP Disabled."; Duration=5;})
 	end)
 end;
-task.spawn(C_13);
+task.spawn(C_16);
 -- StarterGui.ScreenGui.Frame.Basic.Flashlight.LocalScript
-local function C_16()
-local script = G2L["16"];
+local function C_19()
+local script = G2L["19"];
 	local Button = script.Parent
 	character = game:GetService("Players").LocalPlayer.Character
 	pointLight = Instance.new("PointLight")
@@ -1330,10 +1444,10 @@ local script = G2L["16"];
 	end)
 	
 end;
-task.spawn(C_16);
+task.spawn(C_19);
 -- StarterGui.ScreenGui.Frame.Basic.Freecam.LocalScript
-local function C_19()
-local script = G2L["19"];
+local function C_1c()
+local script = G2L["1c"];
 	local Button = script.Parent
 	Button.MouseButton1Click:Connect(function()
 		ToggleKey = Enum.KeyCode.P
@@ -1494,10 +1608,10 @@ local script = G2L["19"];
 	end)
 	
 end;
-task.spawn(C_19);
+task.spawn(C_1c);
 -- StarterGui.ScreenGui.Frame.Basic.Click+Tp.LocalScript
-local function C_1c()
-local script = G2L["1c"];
+local function C_1f()
+local script = G2L["1f"];
 	local Button = script.Parent
 	
 	Button.MouseButton1Click:Connect(function()
@@ -1533,10 +1647,10 @@ local script = G2L["1c"];
 		end
 	end)
 end;
-task.spawn(C_1c);
+task.spawn(C_1f);
 -- StarterGui.ScreenGui.Frame.Games.BloxFruits.LocalScript
-local function C_25()
-local script = G2L["25"];
+local function C_28()
+local script = G2L["28"];
 	local Button = script.Parent
 	
 	Button.MouseButton1Click:Connect(function()
@@ -1544,14 +1658,49 @@ local script = G2L["25"];
 	end)
 	
 end;
-task.spawn(C_25);
+task.spawn(C_28);
+-- StarterGui.ScreenGui.Frame.Games.DOORS.LocalScript
+local function C_2b()
+local script = G2L["2b"];
+	local Button = script.Parent
+	
+	Button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+	end)
+	
+end;
+task.spawn(C_2b);
 -- StarterGui.ScreenGui.LocalScript
-local function C_27()
-local script = G2L["27"];
+local function C_31()
+local script = G2L["31"];
 	local DraggableObject	= require(script.Parent.DraggableObject)
 	local FrameDrag 		= DraggableObject.new(script.Parent.Frame)
 	FrameDrag:Enable()
 end;
-task.spawn(C_27);
+task.spawn(C_31);
+-- StarterGui.ScreenGui.LocalScript
+local function C_32()
+local script = G2L["32"];
+	local musicFolder = script.Parent.Frame.Music -- variable for the music folder
+	local availableMusic = musicFolder:GetChildren() -- variable that gets all of the children, or songs, from the music folder
+	local currentTrack = script.Parent.CurrentTrack -- variable for the string value that will hold the name of the current song
+	
+	while true do -- begins a loop that will run forever
+	
+		local randomTrack = availableMusic[math.random(1,#availableMusic)] -- variable for a random track selected from the availableMusic variable, which holds all of the songs
+	
+		currentTrack.Value = "..." -- since nothing is playing yet, we set the string value's value to be simply an ellipses (...)
+	
+		wait(2) -- delay before next song plays
+	
+		randomTrack:Play() -- plays the random track we selected
+	
+		currentTrack.Value = randomTrack.Name -- since a song is playing now, we set the string value's value to be the same as the name of the random track we are currently playing
+	
+		randomTrack.Ended:Wait() -- waits for the track to end
+	
+	end -- end of the loop
+end;
+task.spawn(C_32);
 
 return G2L["1"], require;
